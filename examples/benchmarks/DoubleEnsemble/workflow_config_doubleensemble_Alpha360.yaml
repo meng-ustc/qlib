@@ -60,7 +60,8 @@ task:
                 - 0.2
                 - 0.2
                 - 0.2
-            epochs: 136
+            epochs: 1000
+            early_stopping_round: 50
             colsample_bytree: 0.8879
             learning_rate: 0.0421
             subsample: 0.8789
